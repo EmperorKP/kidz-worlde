@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#cart{
+    width:30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.ima{
+   
+    height: 63vh;
+    background-image:url(/assets/kw-background.png);
+    background-repeat: no-repeat;
+    
+    background-size:contain;
+    background-size:100vw 63vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+    font-size: 28px;
+
+}
+img{
+    width: 200px;
+}
+#books{
+    display: flex;
+    justify-content: space-evenly;
+}
+#games{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#arts{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#foot{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 30px;
+}
+.round{
+    border-radius: 200px;
+}
+.add{
+    background-color:#6196FF;
+    display: flex;
+    width:50px;
+    border-radius:5px;
+}
+.add img{
+    width:20px;
+
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+}
