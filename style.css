@@ -7,9 +7,28 @@
 #cart{
     width:30px;
 }
-.nav{
+#header{
     display: flex;
     justify-content: space-between;
+}
+#right{
+    display: flex;
+    align-items: center ;
+}
+#bg-img{
+    background-image: url(./assets/kw-background.png) ;
+    
+    height: 63vh;
+    background-size: 100vw 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid blue; */
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    font-size: 28px;
 }
 .ima{
    
@@ -53,7 +72,7 @@ img{
     padding: 30px;
 }
 .round{
-    border-radius: 200px;
+    border-radius:50%;
 }
 .add{
     background-color:#6196FF;
